@@ -65,6 +65,10 @@ function draw() {
   if ( gameState =="end") {
     
     textSize(90);
+    textFont("courier");
+    stroke(233,54,167);
+    strokeWeight(8)
+    fill(15,12,9);
     text("GameOver", 150, 300);
   }
 
